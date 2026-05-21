@@ -11,6 +11,6 @@ const usuarios=[
   { nombre:"valentina", apellido:"diaz", cedula:"258369147", correo:"vale.diaz@mail.com" }
 ]
 
-module.exports={
+export {
     usuarios
 } // exportando para utilizar en otro archivo 

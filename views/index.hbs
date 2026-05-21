@@ -14,5 +14,9 @@
         <button>contacto</button>
     </nav>
     <h1 class="titulo">Mi primera pagina</h1>
+    {{#each usuarios}}
+        <h5>{{../prefix}} {{nombre}} {{ apellido}} </h5>
+    {{/each}}
+    <script src="index.js"></script>
 </body>
 </html>
