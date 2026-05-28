@@ -7,12 +7,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <nav>
-        <button>Inicio</button>
-        <button>login</button>
-        <button>Registro</button>
-        <button>contacto</button>
-    </nav>
+    {{> menu }}
     <h1 class="titulo">Mi primera pagina</h1>
     {{#each usuarios}}
         <h5>{{../prefix}} {{nombre}} {{ apellido}} </h5>
